@@ -41,6 +41,10 @@
     user-select: none;
 }
 
+::-webkit-scrollbar{
+    display: none;
+}
+
 #main-cont{
     margin-top: 100px;
 }
