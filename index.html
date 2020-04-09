@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta http-equiv="X-UA-Compatible" content="ie=edge">
+        <title>bookmarks</title>
+        <link type="text/css" rel="stylesheet" href="css/main.css" />
+        <link type="text/css" rel="stylesheet" href="css/bootstrap.css" />
+        <script src="js/bootstrap.js"></script>
+        <script src="js/jquery.js"></script>
+    </head>
+    <body>
+        <div class="body">
+            <div id="header" class="fixed-top">
+                <div>
+                    linkmarks
+                </div>
+            </div>
+
+
+            <div id="main">
+                
+            </div>
+
+
+            <div id="footer">
+                <span class="footer-text">home</span> 
+            </div>
+        </div>
+
+
+
+        <script>
+            var xhttp = new XMLHttpRequest();
+            xhttp.onreadystatechange = function() {
+                if(this.readyState == 4 && this.status == 200) {
+                    var cont = JSON.parse(this.responseText);
+                    for (const x in cont){
+                        document.getElementById('main').innerHTML += "<div class='"
+                        + x + " category'><div class='category-title " + x + "-cat'><img src='img/arrow.png'>"
+                        + x + "</div></div>";
+                        //bindingFunction();
+                        // function bindingFunction(){
+                        //     $('.category').click(function(){
+                        //         $('.'+y).toggle();
+                        //     });
+                        // };
+                        n=cont[x];
+                        //alert(varone);
+                        for (const y in n){
+                            //alert(n[y]);
+                            //alert(y);
+                            document.getElementById('main').innerHTML += "<div class='sub-category "
+                             + x + "-subcat'><img src='img/circle.png'><a href='"
+                              + n[y] + "' target='_blank'>" + y + "</a></div>";
+                            bindingFunction();
+                            // function bindingFunction(){
+                            //     $('.' + x + '-cat').click(function(){
+                            //         $('.' + x + '-subcat').toggle();
+                            //     });
+                            // };
+                        }
+                    }
+                }
+            }
+            xhttp.open("GET", "content.json", true);
+            xhttp.send();
+            function bindingFunction(){
+                $('.Programming-cat').click(function(){
+                    $('.Programming-subcat').toggle();
+                    $('.Programming-cat').toggleClass('cat-color');
+                });
+                $('.Portfolios-cat').click(function(){
+                    $('.Portfolios-subcat').toggle();
+                    $('.Portfolios-cat').toggleClass('cat-color');
+                });
+                $('.Piracy-cat').click(function(){
+                    $('.Piracy-subcat').toggle();
+                    $('.Piracy-cat').toggleClass('cat-color');
+                });
+                $('.Library-cat').click(function(){
+                    $('.Library-subcat').toggle();
+                    $('.Library-cat').toggleClass('cat-color');
+                });
+                $('.Courses-cat').click(function(){
+                    $('.Courses-subcat').toggle();
+                    $('.Courses-cat').toggleClass('cat-color');
+                });
+                $('.Music-cat').click(function(){
+                    $('.Music-subcat').toggle();
+                    $('.Music-cat').toggleClass('cat-color');
+                });
+            };
+            // function bindingFunction(){
+            //     $('.Portfolio-cat').click(function(){
+            //         $('.Portfolio-subcat').toggle();
+            //     });
+            // };
+        </script>
+    </body>
+</html>

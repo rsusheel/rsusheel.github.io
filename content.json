@@ -1,0 +1,41 @@
+{
+    "Programming": {
+        "You Should Learn to Program": "https://christian.gen.co/you-should-learn-to-program",
+        "Web Dev Roadmap": "https://coggle-downloads-production.s3.eu-west-1.amazonaws.com/99e8ea7dc9aad62cf1011efdc79daa3ff8efe96b0667d791df48404eae6b5500/Web_Development_In_2020.png?AWSAccessKeyId=ASIA4YTCGXFHCOKBUYWA&Expires=1586368205&Signature=Ug2a%2Brm6lpTX7%2FVYEYaLFX8ZZb0%3D&x-amz-security-token=IQoJb3JpZ2luX2VjEMv%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FwEaCWV1LXdlc3QtMSJHMEUCIQCMGhfOdlFzwjZzzI7vMJOtTN0ptBNMYss4Oq6zKLz%2BIwIgR9%2FfmR%2FY8YZ1bzDqQ0OcuyG0IYvKA5s%2FNni8gnyvka4q3wEI1P%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FARAAGgw4Nzc0NTMwMzE3NTgiDLGi6aSATRis6lkUVCqzAfC3H4MVsd19ARtH1u8rhB1BurB%2BZHKeK4VCCbCHVOcw1zc4%2B02ahJpK%2BAKvuyIBir6HL65OGu4uB6DJrnHC8t45hrkw5cpGVI%2Fp26oIgSmqqCI76f5LOQdDpynhiuqxXzY2XBy58dcfqkFHu5LINcs3pdTF06xvXca%2FLUgkH%2FhYO%2Fw33nfAxFQjTGC%2FaBeimyWbpsu1P%2FEy57o9gx2P%2BfRp4gsQ8aE3eViHMRxTNgyB3dbpMOThtvQFOuABQEt6ToTr5GpPHEnADwqY%2FGMsNz0liF3xrJC97H8GjPHFtwMsiyymLjNXZViwXIfyFdMBqMQC1at8DUzQZkuoOnZEKXqOB8XyLpL1gyjPlE1Jo8NVjhIdJubDEU4Wi7rOEXUyBGbJNkoh5FsPAd1U%2FZU%2FD%2Bz3GkgzJDdXafvhuXufW0J7xRu1GvbySgraELmeFXL1bHplG%2FEQaWCgfdntMxsfSVMXkk2VVpWkr7a49dxLlVpC4WYlyTR0wBKE5Ire5x4AWm1sAbtvsvVQF1OTnwTlMlGZxeLdvf3qMNtjfIY%3D",
+        "Estelle's CSS Guide | github": "https://estelle.github.io/",
+        "JavaScript.info": "https://javascript.info",
+        "Eloquent JavaScript": "https://eloquentjavascript.net/",
+        "JavaScript30 by WesBos": "https://javascript30.com/",
+        "Live DOM Viewer": "http://software.hixie.ch/utilities/js/live-dom-viewer/",
+        "JavaScript MDN": "https://developer.mozilla.org/en-US/docs/Web/JavaScript",
+        "NPMJS": "https://www.npmjs.com",
+        "W3Schools": "https://www.w3schools.com/whatis/default.asp",
+        "How DNS Works": "https://howdns.works/",
+        "Public APIs | github": "https://github.com/public-apis/public-apis"
+    },
+
+    "Portfolios": {
+        "Maya Novorini": "https://www.mayanovarini.com"
+    },
+
+    "Piracy": {
+        "Igglybuff | github": "https://github.com/Igglybuff/awesome-piracy",
+        "Library Genesis": "http://gen.lib.rus.ec/",
+        "z-Library": "https://b-ok.org/"
+    },
+    "Library": {
+        "Library Genesis": "http://gen.lib.rus.ec/",
+        "z-Library": "https://b-ok.org/"
+    },
+
+    "Courses": {
+        "Udemy": "https://www.udemy.com/",
+        "Pluralsight": "https://www.pluralsight.com",
+        "Egghead": "https://egghead.io/"
+    },
+
+    "Music": {
+        "AOTY": "",
+        "Rate Your Music": ""
+    }
+}

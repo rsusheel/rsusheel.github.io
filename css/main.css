@@ -1,0 +1,107 @@
+.body{
+    /* background-color: black; */
+    background-image: url(../img/bkgrnd.jpg);
+    background-size: 550px 250px;
+}
+
+#header{
+    background-color: darkslategray;
+    max-width: 800px;
+    margin: auto;
+    text-align: center;
+    color: white;
+    padding: 20px;
+    border: 5px solid black;
+    cursor: default;
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+
+#main{
+    max-width: 800px;
+    min-height: calc(100vh - 43px);
+    height: calc(100vh - 43px);
+    margin: auto;
+    background-color:darkslategray;
+    border: 5px solid black;
+    padding: 100px 0px 50px 0px;
+    color: white;
+    overflow-y: scroll;
+    scrollbar-color: darkslategray darkslategray;
+    scrollbar-width: thin;
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+
+#main-cont{
+    margin-top: 100px;
+}
+
+img{
+    height: 15px;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.category{
+    cursor: pointer;
+    margin-bottom: 10px;
+    margin-top: 10px;
+    color: gray;
+    letter-spacing: 1px;
+}
+
+.category:hover{
+    color: white;
+}
+
+.cat-color{
+    color: white;
+}
+
+.sub-category a{
+    text-decoration: none;
+    color: gray;
+    letter-spacing: 1px;
+}
+
+#main a:hover{
+    text-decoration: none;
+    color: white;
+}
+
+.sub-category{
+    margin-left: 40px;
+    display: none;
+    margin-bottom: 10px;
+}
+
+#footer{
+    max-width: 800px;
+    color: darkslategray;
+    margin: auto;
+    /* background-color: black; */
+    padding: 7px 50px 7px 0px;
+    border: 5px solid black;
+    text-align: right;
+    cursor: default;
+    border-top: 0;
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+
+.footer-text:hover{
+    color: white;
+}
