@@ -235,3 +235,57 @@ a:hover{
     background-color: #563D7C;
     color: white;
 }
+
+.heading{
+    display: none;
+}
+
+.part-two-name{
+    display: none;
+}
+
+
+
+
+
+
+
+
+
+@media only screen and (max-width: 580px){
+    .part-two-name{
+        display: block;
+        margin-bottom: 30px;
+    }
+
+    .heading{
+        display: block;
+        padding: 5px 20px;
+        margin-top: 30px;
+        margin-bottom: 5px;
+        width: 200px;
+        background-color: #764ABC;
+        color: white;
+        font-weight: bold;
+        border-top-right-radius: 5px;
+        border-bottom-right-radius: 5px;
+    }
+
+    body{
+        margin: 0;
+    }
+
+    #root{
+        display: block;
+    }
+
+    #part-one{
+        display: none;
+    }
+}
+
+@media only screen and (max-width: 720px) and (min-width: 580px){
+    body{
+        margin: 0;
+    }
+}
