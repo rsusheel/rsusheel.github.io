@@ -1,102 +1,88 @@
 <!DOCTYPE html>
-<html>
-    <head>
-        <meta charset="utf-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <meta http-equiv="X-UA-Compatible" content="ie=edge">
-        <title>bookmarks</title>
-        <link type="text/css" rel="stylesheet" href="css/main.css" />
-        <link type="text/css" rel="stylesheet" href="css/bootstrap.css" />
-        <script src="js/bootstrap.js"></script>
-        <script src="js/jquery.js"></script>
-    </head>
-    <body>
-        <div class="body">
-            <div id="header" class="fixed-top">
-                <div>
-                    linkmarks
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="main.css">
+    <title>Resume</title>
+</head>
+<body>
+    <div id='root'>
+        <div id="part-one">
+            <div class="name">
+                <div class="name-cont">
+                    <div class="iam">I'M</div>
+                    <div class="susheel">SUSHIL</div>
+                    <div class="thakur">THAKUR</div>
+                    <div class="dev">Frontend Dev</div>
                 </div>
             </div>
-
-
-            <div id="main">
-                
-            </div>
-
-
-            <div id="footer">
-                <span class="footer-text">home</span> 
+            <hr>
+            <div class="pro-sec">
+                <div class="pro-sec-part pro-sec-one">
+                    Profile
+                </div>
+                <div class="pro-sec-part pro-sec-two">
+                    Technical Skills
+                </div>
+                <div class="pro-sec-part pro-sec-three">
+                    Projects
+                </div>
+                <div class="pro-sec-part pro-sec-four">
+                    Certifications
+                </div>
+                <div class="pro-sec-part pro-sec-five">
+                    Education
+                </div>
             </div>
         </div>
-
-
-
-        <script>
-            var xhttp = new XMLHttpRequest();
-            xhttp.onreadystatechange = function() {
-                if(this.readyState == 4 && this.status == 200) {
-                    var cont = JSON.parse(this.responseText);
-                    for (const x in cont){
-                        document.getElementById('main').innerHTML += "<div class='"
-                        + x + " category'><div class='category-title " + x + "-cat'><img src='img/arrow.png'>"
-                        + x + "</div></div>";
-                        //bindingFunction();
-                        // function bindingFunction(){
-                        //     $('.category').click(function(){
-                        //         $('.'+y).toggle();
-                        //     });
-                        // };
-                        n=cont[x];
-                        //alert(varone);
-                        for (const y in n){
-                            //alert(n[y]);
-                            //alert(y);
-                            document.getElementById('main').innerHTML += "<div class='sub-category "
-                             + x + "-subcat'><img src='img/circle.png'><a href='"
-                              + n[y] + "' target='_blank'>" + y + "</a></div>";
-                            bindingFunction();
-                            // function bindingFunction(){
-                            //     $('.' + x + '-cat').click(function(){
-                            //         $('.' + x + '-subcat').toggle();
-                            //     });
-                            // };
-                        }
-                    }
-                }
-            }
-            xhttp.open("GET", "content.json", true);
-            xhttp.send();
-            function bindingFunction(){
-                $('.Programming-cat').click(function(){
-                    $('.Programming-subcat').toggle();
-                    $('.Programming-cat').toggleClass('cat-color');
-                });
-                // $('.Portfolios-cat').click(function(){
-                //     $('.Portfolios-subcat').toggle();
-                //     $('.Portfolios-cat').toggleClass('cat-color');
-                // });
-                $('.Piracy-cat').click(function(){
-                    $('.Piracy-subcat').toggle();
-                    $('.Piracy-cat').toggleClass('cat-color');
-                });
-                $('.Library-cat').click(function(){
-                    $('.Library-subcat').toggle();
-                    $('.Library-cat').toggleClass('cat-color');
-                });
-                $('.Courses-cat').click(function(){
-                    $('.Courses-subcat').toggle();
-                    $('.Courses-cat').toggleClass('cat-color');
-                });
-                $('.Music-cat').click(function(){
-                    $('.Music-subcat').toggle();
-                    $('.Music-cat').toggleClass('cat-color');
-                });
-            };
-            // function bindingFunction(){
-            //     $('.Portfolio-cat').click(function(){
-            //         $('.Portfolio-subcat').toggle();
-            //     });
-            // };
-        </script>
-    </body>
+        <div id="part-two">
+            <div class="two-info">
+                <div class="download">Download PDF</div>
+                <div class="contact-info">
+                    <div class="email">thesusheelthakur@gmail.com</div>
+                    <div class="phone">+91 70186 87042</div>
+                    <div class="web"><a href="https://rsusheel.github.io">rsusheel.github.io</a></div>
+                </div>
+            </div>
+            <div class="two-one two-skill">
+                Passionate front-end web developer with porficiency in using JavaScript, HTML5, and CSS to build all aspects of the user experience and user interface for client-facing landing pages.
+            </div>
+            <div class="two-skill">
+                <span>
+                    <span class="javascript tech-skills">Javascript</span>
+                    <span class="css tech-skills">CSS3</span>
+                    <span class="html tech-skills">HTML5</span>
+                </span>
+                <span>
+                    <span class="react tech-skills">React</span>
+                    <span class="redux tech-skills">Redux</span>
+                    <span class="jquery tech-skills">JQuery</span>
+                    <span class="bootstrap tech-skills">Bootstrap</span>
+                </span>
+            </div>
+            <div class="two-skill">
+                <span class="pro-one">Business Website</span>
+                <ul>
+                    <li>Built from scratch</li>
+                    <li>Responsive</li>
+                    <li>Intersection Observer API</li>
+                    <li>Link: <a href="https://www.transformula.in"> https://www.transformula.in</a></li>
+                </ul>
+            </div>
+            <div class="two-skill">
+                <ul>
+                    <li>Digital Marketing</li>
+                </ul>
+            </div>
+            <div class="two-skill">
+                <span class="edu-title"><b>Bachelor of Technology,</b> Electrical Engineering | 2017 - Present</span><br>
+                <span class="edu-coll"><i><b>National Institute of Technology</b>, Hamirpur</i></span>
+                <span class="edu-gpa"><b>GPA:</b> 6.88</span>
+                <span class="plus-two"><b>10+2 : </b><i>HP Board</i> | 91.2%</span>
+            </div>
+        </div>
+    </div>
+    <script src='script.js'></script>
+</body>
 </html>
