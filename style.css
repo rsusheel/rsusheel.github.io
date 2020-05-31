@@ -1,0 +1,161 @@
+body{
+    margin: 0;
+    background-color: #F4F4F4;
+    color: #383840;
+    position: relative;
+    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='100' height='100' viewBox='0 0 100 100'%3E%3Cg fill-rule='evenodd'%3E%3Cg fill='%239C92AC' fill-opacity='0.29'%3E%3Cpath opacity='.5' d='M96 95h4v1h-4v4h-1v-4h-9v4h-1v-4h-9v4h-1v-4h-9v4h-1v-4h-9v4h-1v-4h-9v4h-1v-4h-9v4h-1v-4h-9v4h-1v-4h-9v4h-1v-4H0v-1h15v-9H0v-1h15v-9H0v-1h15v-9H0v-1h15v-9H0v-1h15v-9H0v-1h15v-9H0v-1h15v-9H0v-1h15v-9H0v-1h15V0h1v15h9V0h1v15h9V0h1v15h9V0h1v15h9V0h1v15h9V0h1v15h9V0h1v15h9V0h1v15h9V0h1v15h4v1h-4v9h4v1h-4v9h4v1h-4v9h4v1h-4v9h4v1h-4v9h4v1h-4v9h4v1h-4v9h4v1h-4v9zm-1 0v-9h-9v9h9zm-10 0v-9h-9v9h9zm-10 0v-9h-9v9h9zm-10 0v-9h-9v9h9zm-10 0v-9h-9v9h9zm-10 0v-9h-9v9h9zm-10 0v-9h-9v9h9zm-10 0v-9h-9v9h9zm-9-10h9v-9h-9v9zm10 0h9v-9h-9v9zm10 0h9v-9h-9v9zm10 0h9v-9h-9v9zm10 0h9v-9h-9v9zm10 0h9v-9h-9v9zm10 0h9v-9h-9v9zm10 0h9v-9h-9v9zm9-10v-9h-9v9h9zm-10 0v-9h-9v9h9zm-10 0v-9h-9v9h9zm-10 0v-9h-9v9h9zm-10 0v-9h-9v9h9zm-10 0v-9h-9v9h9zm-10 0v-9h-9v9h9zm-10 0v-9h-9v9h9zm-9-10h9v-9h-9v9zm10 0h9v-9h-9v9zm10 0h9v-9h-9v9zm10 0h9v-9h-9v9zm10 0h9v-9h-9v9zm10 0h9v-9h-9v9zm10 0h9v-9h-9v9zm10 0h9v-9h-9v9zm9-10v-9h-9v9h9zm-10 0v-9h-9v9h9zm-10 0v-9h-9v9h9zm-10 0v-9h-9v9h9zm-10 0v-9h-9v9h9zm-10 0v-9h-9v9h9zm-10 0v-9h-9v9h9zm-10 0v-9h-9v9h9zm-9-10h9v-9h-9v9zm10 0h9v-9h-9v9zm10 0h9v-9h-9v9zm10 0h9v-9h-9v9zm10 0h9v-9h-9v9zm10 0h9v-9h-9v9zm10 0h9v-9h-9v9zm10 0h9v-9h-9v9zm9-10v-9h-9v9h9zm-10 0v-9h-9v9h9zm-10 0v-9h-9v9h9zm-10 0v-9h-9v9h9zm-10 0v-9h-9v9h9zm-10 0v-9h-9v9h9zm-10 0v-9h-9v9h9zm-10 0v-9h-9v9h9zm-9-10h9v-9h-9v9zm10 0h9v-9h-9v9zm10 0h9v-9h-9v9zm10 0h9v-9h-9v9zm10 0h9v-9h-9v9zm10 0h9v-9h-9v9zm10 0h9v-9h-9v9zm10 0h9v-9h-9v9z'/%3E%3Cpath d='M6 5V0H5v5H0v1h5v94h1V6h94V5H6z'/%3E%3C/g%3E%3C/g%3E%3C/svg%3E");
+    background-attachment: fixed;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.part-one{
+    height: 5200px;
+    width: 100%;
+    position: absolute;
+    font-weight: bold;
+    font-size: 45px;
+}
+
+.one-title{
+    text-align: center;
+    position: sticky;
+    top: calc(50% - 124px);
+    width: 310px;
+    padding: 20px 10px;
+    margin: auto;
+    margin-top: calc(50vh - 34px);
+    border-radius: 3px;
+}
+
+.one-name{
+    position: sticky;
+    margin: auto;
+    margin-top: calc(50vh - 140px);
+    padding-left: 0px;
+    width: 250px;
+    height: 55px;
+    border-bottom: 3px solid;
+    border-bottom-color: #383840;  
+    transition: 400ms;
+    border-radius: 3px;
+    top: calc(50% - 34px);
+    display: grid;
+    grid-template-columns: auto 1fr;
+}
+
+.line{
+    height: 40px;
+    margin-top: 12px;
+    margin-left: 1px;
+    width: 1px;
+    background-color: black;
+    opacity: 1;
+}
+
+.obses{
+    background-color: black;
+    font-weight: 100;
+    font-size: 10px;
+    opacity: 1;
+}
+
+.obs-one{
+    position: sticky;
+    top: 0;
+    margin-top: calc(50vh + 50px);
+    width: 100%;
+    height: 1px;
+}
+
+.obs-two{
+    position: sticky;
+    top: 0;
+    margin-top: calc(100vh);
+    width: 100%;
+    height: 1px;
+}
+
+.letter-add{
+    position: sticky;
+    top: 0;
+    margin-top: 100px;
+    width: 100%;
+    height: 1px;
+}
+
+#root{
+    position: relative;
+}
+
+.part-two{
+    position: fixed;
+    height: 100vh;
+    width: 100%;
+    top: 0;
+}
+
+.two-block{
+    height: 0px;
+    width: 300px;
+    margin: auto;
+    background-color: #383840;
+    position: relative;
+    top: calc(50% - 130px);
+    transition: 500ms;
+    border-radius: 3px;
+    color: white;
+    text-align: center;
+    font-weight: bold;
+    font-size: 25px;
+    display: grid;
+    align-content: center;
+    background-color: #383840;
+    background-image: url("data:image/svg+xml,%3Csvg width='6' height='6' viewBox='0 0 6 6' xmlns='http://www.w3.org/2000/svg'%3E%3Cg fill='%239C92AC' fill-opacity='0.4' fill-rule='evenodd'%3E%3Cpath d='M5 0h1L0 6V5zM6 5v1H5z'/%3E%3C/g%3E%3C/svg%3E");
+}
+
+.obs-nine{
+    width: 100%;
+    height: 1px;
+    position: sticky;
+    top: 0;
+    margin-top: 400px;
+}
+
+.obs-ten{
+    width: 100%;
+    height: 1px;
+    position: sticky;
+    top: 0;
+    margin-top: 400px;
+}
+
+.obs-eleven{
+    width: 100%;
+    height: 1px;
+    position: sticky;
+    top: 0;
+    margin-top: 500px;
+}
+
+.obs-twelve{
+    width: 100%;
+    height: 1px;
+    position: sticky;
+    top: 0;
+    margin-top: 600px;
+}
+
+.block-dev{
+    display: contents;
+    color: white;
+    text-shadow: 1px 1px 2px black;
+    background-color: white;
+}
+
+.thisis{
+    font-size: 20px;
+}
+
+.portfolio{
+    font-size: 37px;
+}
