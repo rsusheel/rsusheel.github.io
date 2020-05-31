@@ -9,7 +9,7 @@ body{
 }
 
 .part-one{
-    height: 5200px;
+    height: 7200px;
     width: 100%;
     position: absolute;
     font-weight: bold;
@@ -126,7 +126,7 @@ body{
     height: 1px;
     position: sticky;
     top: 0;
-    margin-top: 400px;
+    margin-top: 1000px;
 }
 
 .obs-eleven{
@@ -134,7 +134,7 @@ body{
     height: 1px;
     position: sticky;
     top: 0;
-    margin-top: 500px;
+    margin-top: 1000px;
 }
 
 .obs-twelve{
@@ -142,7 +142,7 @@ body{
     height: 1px;
     position: sticky;
     top: 0;
-    margin-top: 600px;
+    margin-top: 1000px;
 }
 
 .block-dev{
