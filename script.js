@@ -271,8 +271,8 @@ observerEleven.observe(obsItemEleven);
 
 var observerTwelve = new IntersectionObserver(
     (entry) => {
-        if(entry[0].intersectionRatio > 0.7){
-            document.getElementsByClassName('two-block')[0].innerHTML = '<span class="thisis">THIS IS MY</span><span class="portfolio">PORTFOLIO</span>';
+        if(entry[0].intersectionRatio > 0.7){ 
+            document.getElementsByClassName('two-block')[0].innerHTML = '<span class="thisis">THIS IS MY</span><span class="portfolio">PORTFOLIO</span><div class="resume-pg">Resume</div>';
         }else if(bbb.innerHTML === '<span class="thisis">THIS IS MY</span><span class="portfolio">PORTFOLIO</span>' && entry[0].intersectionRatio < 0.6){
             document.getElementsByClassName('two-block')[0].innerHTML = "AND";
         }
