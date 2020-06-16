@@ -273,7 +273,7 @@ var observerTwelve = new IntersectionObserver(
     (entry) => {
         if(entry[0].intersectionRatio > 0.7){ 
             document.getElementsByClassName('two-block')[0].innerHTML = '<span class="thisis">THIS IS MY</span><span class="portfolio">PORTFOLIO</span><a class="resume-pg" href="resume.html">Resume</a>';
-        }else if(bbb.innerHTML === '<span class="thisis">THIS IS MY</span><span class="portfolio">PORTFOLIO</span>' && entry[0].intersectionRatio < 0.6){
+        }else if(bbb.innerHTML === '<span class="thisis">THIS IS MY</span><span class="portfolio">PORTFOLIO</span><a class="resume-pg" href="resume.html">Resume</a>' && entry[0].intersectionRatio < 0.6){
             document.getElementsByClassName('two-block')[0].innerHTML = "AND";
         }
         
