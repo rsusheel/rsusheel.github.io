@@ -142,6 +142,7 @@ hr{
 }
 
 .download{
+    display: block;
     height: 35px;
     width: 130px;
     font-size: 14px;
