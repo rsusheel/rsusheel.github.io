@@ -1,0 +1,34 @@
+@font-face {
+    font-family: openSans-Bold;
+    src: url(../fonts/OpenSans-Bold.ttf);
+}
+
+@font-face {
+    font-family: openSans-ExtraBold;
+    src: url(../fonts/OpenSans-ExtraBold.ttf);
+}
+
+@font-face {
+    font-family: openSans-EBI;
+    src: url(../fonts/OpenSans-ExtraBoldItalic.ttf);
+}
+
+@font-face {
+    font-family: openSans-Regular;
+    src: url(../fonts/OpenSans-Regular.ttf);
+}
+
+@font-face {
+    font-family: openSans-SB;
+    src: url(../fonts/OpenSans-SemiBold.ttf);
+}
+
+@font-face {
+    font-family: openSans-SBI;
+    src: url(../fonts/OpenSans-SemiBoldItalic.ttf);
+}
+
+@font-face {
+    font-family: montserrat-Regular;
+    src: url(../fonts/Montserrat-Regular.ttf);
+}
