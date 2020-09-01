@@ -705,7 +705,7 @@ body{
     .one-body{
         width: 70%;
         height: 100%;
-        top: 240px;
+        top:150px;
     }
 
     .one-body-head{
@@ -894,18 +894,11 @@ body{
 
     .body-part-one-img{
         width: 100%;
-        height: 100vh;
+        height: 120vh;
         object-fit: cover;
     }
 }
 
-@media only screen and (max-width: 600px) {
-    .one-body{
-        width: 100%;
-        height: 100%;
-        top: 300px;
-    }
-}
 
 
 
@@ -929,7 +922,7 @@ body{
 
 @media only screen and (max-width: 500px) {
     .one-body{
-        top: 200px;
+        top: 150px;
     }
 
     .item-five{
