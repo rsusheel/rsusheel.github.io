@@ -892,8 +892,9 @@ body{
     }
 
     .body-part-one-img{
-        width: auto;
+        width: 100%;
         height: 145vh;
+        object-fit: cover;
     }
 }
 
